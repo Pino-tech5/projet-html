@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: skyblue;
+
+}
+
+
+
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+img{
+
+    width: 400px;
+    height: 400px;
+    padding: 8px 12px;
+}
+#acceuil{
+    color: white;
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+        url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5")
+    
+}
+#acceuil button{
+    background-color: skyblue;
+    color: white;
+    padding: 12 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+h1{
+    text-align: center;
+}
+
+.Paragraphe{
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0%;
+    font-family: 'Georgia', serif;
+    background: white;
+    border: 2px solid #8B4513;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+th {
+    background: #8B4513;
+    color: rgb(221, 192, 26);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    border-bottom: 3px solid #FFD700;
+}
+
+td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #DEB887;
+    text-align: center;
+    font-size: 18px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF8DC;
+}
+
+tr:hover {
+    background-color: #FFEBCD;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+td:last-child {
+    color: #228B22;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    margin: 0% auto;
+    
+}
